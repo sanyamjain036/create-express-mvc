@@ -16,7 +16,7 @@ npm start
 
 ### Get Started Immediately
 
-You **don’t** need to install or configure tools like express, cors, mongoose,dotenv or swagger.
+You **don’t** need to install or configure tools like express, cors, mongoose,dotenv, nodemon or swagger.
 They are preconfigured so that you can focus on the code.
 
 Create a project, and you’re good to go.
@@ -24,7 +24,7 @@ Create a project, and you’re good to go.
 Create .env according to your need
 ```sh
  PORT=8080
- NODE_ENV=development //production
+ NODE_ENV=<development or production>
  MONGO_URI=<YOUR_MONGODB_URI>
 ```
 
