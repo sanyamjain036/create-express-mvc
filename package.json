@@ -1,7 +1,7 @@
 {
   "name": "create-express-mvc",
   "version": "0.1.0",
-  "description": "A simple template to get started for backend project in node.js",
+  "description": " A template to kickstart a Node.js backend project. It incorporates a commonly used folder structure in the industry and leverages Express, Mongoose, and Swagger for API documentation.",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
@@ -14,7 +14,7 @@
     "express": "^4.18.2",
     "mongoose": "^7.5.2",
     "swagger-ui-express": "^5.0.0",
-    "yamljs": "^0.3.0"
+    "yaml": "^2.3.2"
   },
   "devDependencies": {
     "colors": "^1.4.0",
