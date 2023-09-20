@@ -1,0 +1,40 @@
+openapi: 3.0.0
+info:
+  title: DTU Times API
+  description: DTU Times Backend API
+  version: 1.0.0
+servers:
+  - url: http://localhost:8080/api/v1
+    description: Local server
+  - url: http://domain.com
+    description: Production server
+
+paths:
+  /user/create:
+    post:
+      tags: [User]
+      summary: Create a user
+      description: Create a user
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  required: true
+                  type: string
+                  example: Sanyam Jain
+      responses:
+        "201": # status code
+          description: User details which is created
+
+  /user:
+    get:
+      tags: [User]
+      summary: Get all users
+      description: Get all users
+      responses:
+        "200": # status code
+          description: Array of users
