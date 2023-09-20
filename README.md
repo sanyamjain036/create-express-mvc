@@ -16,7 +16,7 @@ npm start
 
 ### Get Started Immediately
 
-You **don’t** need to install or configure tools like express or mongoose or swagger.
+You **don’t** need to install or configure tools like express, cors, mongoose,dotenv or swagger.
 They are preconfigured so that you can focus on the code.
 
 Create a project, and you’re good to go.
@@ -24,7 +24,7 @@ Create a project, and you’re good to go.
 Create .env according to your need
 ```sh
  PORT=8080
- NODE_ENV=development
+ NODE_ENV=development //production
  MONGO_URI=<YOUR_MONGODB_URI>
 ```
 
@@ -44,7 +44,7 @@ npm init express-mvc my-app
 ### Yarn
 
 ```sh
-yarn create react-app my-app
+yarn create express-mvc my-app
 ```
 
 It will create a directory called `my-app` inside the current folder.
