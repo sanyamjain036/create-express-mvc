@@ -1,5 +1,6 @@
 # Create Express MVC  ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)
 
+A template to kickstart a Node.js backend project. It incorporates a commonly used folder structure in the industry.
 
 Create Express MVC works on macOS, Windows, and Linux.
 If something doesn’t work, please [file an issue](https://github.com/sanyamjain036/create-express-mvc/issues/new).
