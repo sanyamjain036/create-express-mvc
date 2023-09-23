@@ -1,33 +1,27 @@
 {
   "name": "create-express-mvc",
-  "version": "0.1.2",
+  "version": "1.1.0",
   "description": " A template to kickstart a Node.js backend project. It incorporates a commonly used folder structure in the industry and leverages Express, Mongoose, and Swagger for API documentation.",
-  "bin":"./bin/cli.js",
-  "main": "src/index.js",
+  "main": "./index.js",
   "type": "module",
-  "scripts": {
-    "start": "nodemon src/index.js"
+  "bin": {
+    "create-test-sanyam": "./index.js"
   },
   "repository": {
-    "type":"git",
-    "url":"git+https://github.com/sanyamjain036/create-express-mvc"
+    "type": "git",
+    "url": "git+https://github.com/sanyamjain036/create-express-mvc"
   },
-  "keywords": ["express","mvc","create-express-mvc","mvc-template","mvc-boilerplate"],
+  "keywords": [
+    "express",
+    "mvc",
+    "create-express-mvc",
+    "mvc-template",
+    "mvc-boilerplate",
+    "template"
+  ],
   "author": "Sanyam Jain",
   "license": "MIT",
-  "bugs":{
-    "url":"https://github.com/sanyamjain036/create-express-mvc/issues"
-  },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "mongoose": "^7.5.2",
-    "swagger-ui-express": "^5.0.0",
-    "yaml": "^2.3.2"
-  },
-  "devDependencies": {
-    "colors": "^1.4.0",
-    "dotenv": "^16.3.1",
-    "nodemon": "^3.0.1"
+  "bugs": {
+    "url": "https://github.com/sanyamjain036/create-express-mvc/issues"
   }
 }

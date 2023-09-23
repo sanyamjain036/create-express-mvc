@@ -1,0 +1,20 @@
+{
+  "name": "create-express-mvc",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.2",
+    "swagger-ui-express": "^5.0.0",
+    "yaml": "^2.3.2"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
+}
