@@ -7,7 +7,6 @@ import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
 import  {execSync} from 'child_process';
 
 
@@ -22,6 +21,17 @@ const runCommand= command =>{
     return true;
 }
 
+// checking Node version should be >=16.7.0
+const currentNodeVersion = process.versions.node;
+const requiredNodeVersion = "16.7.0";
+const check = currentNodeVersion.localeCompare(requiredNodeVersion, undefined, {
+  numeric: true,
+  sensitivity: "base",
+});
+if (check === -1) {
+  console.log('\x1b[31m%s\x1b[0m', `You are running Node ${currentNodeVersion}.\nCreate Express MVC requires Node ${requiredNodeVersion} or higher.\nPlease update your version of Node.`);
+  process.exit(1);
+}
 
 // The third argument will be the project name.
 const repoName = process.argv[2];
