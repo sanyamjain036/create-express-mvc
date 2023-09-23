@@ -1,11 +1,11 @@
 {
   "name": "create-express-mvc",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": " A template to kickstart a Node.js backend project. It incorporates a commonly used folder structure in the industry and leverages Express, Mongoose, and Swagger for API documentation.",
   "main": "./index.js",
   "type": "module",
   "bin": {
-    "create-test-sanyam": "./index.js"
+    "create-express-mvc": "./index.js"
   },
   "repository": {
     "type": "git",
